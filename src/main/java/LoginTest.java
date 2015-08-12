@@ -22,6 +22,7 @@ public class LoginTest {
     public void setUp() throws Exception {
 //        driver = new ChromeDriver();
         driver = new FirefoxDriver();
+		//111
         baseUrl = "http://luciana.integro.kiev.ua/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         System.out.println("Setup completed");
